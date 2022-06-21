@@ -21,7 +21,7 @@ const maxBytesPerRequest = 1024 // API limit
 // requests. It has a 5-second timeout. To use a different timeout, set
 // HTTPClient.Timeout. To use a different client, set HTTPClient.
 var HTTPClient *http.Client = &http.Client{
-	Timeout: 5 * time.Second,
+	Timeout: 60 * time.Second,
 }
 
 // URL is the URL of the ANU QRNG API server. To use a different server
