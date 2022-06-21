@@ -1,4 +1,4 @@
-module github.com/bitfield/qrand
+module github.com/arodd/qrand
 
 go 1.13
 
